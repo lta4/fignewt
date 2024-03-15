@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Form from "../components/form";
 
 const Main = (props) => {
     return (

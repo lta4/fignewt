@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import { SocialIcon } from "react-social-icons";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -14,12 +15,17 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+ReactDOM.render(
+  <React.StrictMode>
+    <Router>
+      <App />
+      <Route path="/login">
+        {/* <SocialIcon /> */}
+      </Route>
+    </Router>
+  </React.StrictMode>,
+  document.body
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
