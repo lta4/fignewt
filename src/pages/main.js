@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Form from "../components/form";
+// import Form from "../components/form";
 
 const Main = (props) => {
     return (
@@ -7,6 +7,6 @@ const Main = (props) => {
             <p>This is the main feed</p>
         </div>
     );
-}
+};
 
-export default Main;
+export default Main

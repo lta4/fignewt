@@ -1,12 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = (props) => {
     return (
         <div className="navBar">
-            <Link to="/">
+            <NavLink to="/">
                 <h1 className="title">MoviFi</h1>
-            </Link>
+            </NavLink>
+            <NavLink to="/main">Main</NavLink>
         </div>
     );
 };

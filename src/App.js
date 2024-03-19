@@ -1,13 +1,14 @@
 import "./App.css";
 import "./Login.css";
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Main from "./pages/main";
 import Nav from "./components/nav";
 import Footer from "./pages/footer";
 import Dashboard from './components/dashboard';
 import Login from "./components/login";
 import useToken from "./useToken";
+import NoMatch from "./components/noMatch";
 
 function App() {
 
@@ -19,20 +20,16 @@ function App() {
   return (
     <div className="wrapper">
       <div className="App">
-        <Nav />
-        {/* <Switch> */}
-        <Router>
-        <Routes>
-          <Route path="/dashboard">
-            <Dashboard className="dashboardRoute" />
-          </Route>
-          <Route path="/">
-            <Main className="mainRoute" />
-          </Route>
-        </Routes>
-        </Router>
-        <Footer />
-        {/* </Switch> */}
+        <>
+          <Nav />
+          <Routes>
+            <Route path="/" element={<Main />} />
+              {/* <Main className="mainRoute" /> */}
+            <Route path="/login" element={<Login />} />
+            <Route path="*" element={<NoMatch />} />
+          </Routes>
+          <Footer />
+        </>
       </div>
     </div>
   );
