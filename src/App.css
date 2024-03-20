@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -14,6 +20,7 @@
 }
 
 .App-header {
+  position: fixed;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -39,11 +46,12 @@
 
 /*****************Nav***************/
 
-.navBar a {
-  display: grid;
-  grid-column: 1 / 3;
-  grid-row: 1 / 5;
-  text-decoration: none;
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  /* margin: 40px auto; */
 }
 
 .title {
@@ -52,9 +60,24 @@
   font-size: 40px;
 }
 
-.favLink {
+/* .favLink {
   color: white;
+} */
+
+
+nav .links {
+  display: inline-block;
+  text-align: right;
 }
+
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding: 8px;
+  border-bottom: 3px solid transparent;
+}
+
 
 /****************Form****************/
 
