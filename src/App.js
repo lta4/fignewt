@@ -27,8 +27,8 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" element={<Main />} />
-              {/* <Main className="mainRoute" /> */}
             <Route path="/login" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/fav" element={<Fav />} />
             <Route path="/about" element={<About />} />
             <Route path="/review" element={<Review />} />

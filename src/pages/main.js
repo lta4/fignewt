@@ -5,7 +5,7 @@ import ContactForm from "../components/contactForm";
 const Main = (props) => {
     return (
         <div>
-            <p>This is the main feed</p>
+            <h1>This is the main feed</h1>
             <Form />
             <ContactForm />
         </div>
