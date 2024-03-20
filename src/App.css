@@ -37,6 +37,41 @@
   }
 }
 
+/*****************Nav***************/
+
+.navBar a {
+  display: grid;
+  grid-column: 1 / 3;
+  grid-row: 1 / 5;
+  text-decoration: none;
+}
+
+.title {
+  margin: 0;
+  color: white;
+  font-size: 40px;
+}
+
+.favLink {
+  color: white;
+}
+
+/****************Form****************/
+
+.formIntro {
+  margin: 40px 10px;
+}
+
+.inputBar {
+  height: 20px;
+  width: 15em;
+  font-family: monospace;
+}
+
+.submitButton {
+  height: 26px;
+}
+
 /*****************Contact************/
 
 .contactForm {
@@ -46,7 +81,7 @@
   row-gap: 4px;
 }
 
-input#firstname, #lastname, #emial {
+input#firstname, #lastname, #email {
   padding: 5px 0 5px 0;
   margin: 0 5px 0 5px;
   font-family: monospace;
