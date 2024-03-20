@@ -5,7 +5,7 @@ const Nav = (props) => {
     return (
         <div className="navBar">
             <NavLink to="/">
-                <h1 className="title">MoviFi</h1>
+                <h1 className="title">FigNewt</h1>
             </NavLink>
             <NavLink to="/main">Main</NavLink>
         </div>
