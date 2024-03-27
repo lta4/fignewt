@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { IoClose, IoMenu } from "react-icons/io5";
 
 const Nav = (props) => {
     return (
@@ -15,11 +16,20 @@ const Nav = (props) => {
                         <li className="nav__item"><NavLink to="/fav" className="nav__link">
                             Fav
                         </NavLink></li>
+                        <li className="nav__item"><NavLink to="/about" className="nav__link">
+                            About
+                        </NavLink></li>
+                        <li className="na__item"><NavLink to="/review" className="nav__link">
+                            Review
+                        </NavLink>
+                        </li>
                     </ul>
-                    {/* <NavLink to="/fav">Fav</NavLink> */}
-                    <NavLink to="/about">About</NavLink>
-                    <NavLink to="/review">Review</NavLink>
-                    {/* <NavLink to="/main">Main</NavLink> */}
+                    <div className="nav__close" id="nav-close">
+                        <IoClose />
+                    </div>
+                </div>
+                <div className="nav__toggle" id="nav-toggle">
+                    <IoMenu />
                 </div>
             </nav>
         </header>
