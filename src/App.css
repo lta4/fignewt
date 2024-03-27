@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
 }
 
 /* .App-header {
@@ -49,7 +53,7 @@
 
 /****************Form****************/
 
-.formIntro {
+/* .formIntro {
   margin: 40px 10px;
 }
 
@@ -60,12 +64,12 @@
 }
 
 .submitButton {
-  height: 26px;
-}
+  height: 26px; */
+
 
 /*****************Contact************/
 
-.contactForm {
+/* .contactForm {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 6fr;
@@ -86,7 +90,7 @@ textarea#message {
 button {
   padding: 5px 0 5px 0;
   margin: 0 5px 5px 5px;
-}
+} */
 
 /****************Footer*************/
 
