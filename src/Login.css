@@ -1,9 +1,7 @@
-html, body {
+body {
     position: relative;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to top,#F0F2F0, #1e3fd1);
 }
 
 .login-wrapper {
@@ -20,12 +18,15 @@ html, body {
 
 .login {
     margin-top: 50px;
+    text-align: center;
+    color: black;
 }
 
 .loginDetails {
     font-size: 17px;
     margin: 20px 10px;
     text-align: center;
+    color: black;
 }
 
 .input-wrapper {
