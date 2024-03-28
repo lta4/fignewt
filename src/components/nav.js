@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { IoClose, IoMenu } from "react-icons/io5";
 import "./nav.css";
 
-const Nav = (props) => {
+const Nav = () => {
     return (
         <header className="header">
             <nav className="nav container">

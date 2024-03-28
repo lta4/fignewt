@@ -21,21 +21,19 @@ function App() {
     return <Login setToken={setToken} />
   }
   return (
-    <div className="wrapper">
-      <div className="App">
-        <>
-          <Nav />
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/fav" element={<Fav />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/review" element={<Review />} />
-            <Route path="*" element={<NoMatch />} />
-          </Routes>
-          <Footer />
-        </>
+    <div className="App">
+      <Nav />
+      <div className="main-content">
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/fav" element={<Fav />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/review" element={<Review />} />
+        <Route path="*" element={<NoMatch />} />
+      </Routes>
+      <Footer />
       </div>
     </div>
   );
