@@ -38,6 +38,14 @@ const Nav = () => {
                             Review
                         </NavLink>
                         </li>
+                        <li
+                        className="nav__item"><NavLink to="/dashboard"
+                        className="nav__link"
+                        onClick=
+                        {closeMenuOnMobile}>
+                            Dashboard
+                        </NavLink>
+                        </li>
                         <li className="nav__item">
                             <NavLink to="/get-started" className="nav__link nav__cta">
                                 Get Started

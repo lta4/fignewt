@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "./Login.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Main from "./pages/main";
 import Nav from "./components/nav";
 import NavHook from "./components/navHook";
@@ -29,10 +29,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/fav" element={<Fav />} />
         <Route path="/about" element={<About />} />
         <Route path="/review" element={<Review />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
       <Footer />
