@@ -1,9 +1,9 @@
+import React from "react";
 import "./App.css";
 import "./Login.css";
-import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./pages/main";
-// import Nav from "./components/nav";
+import Nav from "./components/nav";
 import NavHook from "./components/navHook";
 import Fav from "./pages/fav";
 import About from "./pages/about";
@@ -14,7 +14,7 @@ import Login from "./components/login";
 import useToken from "./useToken";
 import NoMatch from "./components/noMatch";
 
-function App() {
+const App = () => {
 
   const { token, setToken } = useToken();
 
