@@ -3,7 +3,8 @@ import "./Login.css";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Main from "./pages/main";
-import Nav from "./components/nav";
+// import Nav from "./components/nav";
+import NavHook from "./components/navHook";
 import Fav from "./pages/fav";
 import About from "./pages/about";
 import Review from "./pages/review";
@@ -22,7 +23,8 @@ function App() {
   }
   return (
     <div className="App">
-      <Nav />
+      {/* <Nav /> */}
+      <NavHook />
       <div className="main-content">
       <Routes>
         <Route path="/" element={<Main />} />
