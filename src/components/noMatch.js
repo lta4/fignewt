@@ -2,7 +2,9 @@ import React from "react";
 
 const NoMatch = (props) => {
     return (
-        <div>404</div>
+        <div>
+            <h1>404 ! 404 ! 404 ! 404 !</h1>
+        </div>
     );
 };
 

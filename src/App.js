@@ -25,7 +25,7 @@ const App = () => {
     <div className="App">
       {/* <Nav /> */}
       <NavHook />
-      <div className="main-content">
+      <main className="main-content">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
@@ -36,7 +36,7 @@ const App = () => {
         <Route path="*" element={<NoMatch />} />
       </Routes>
       <Footer />
-      </div>
+      </main>
     </div>
   );
 };
