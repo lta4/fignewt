@@ -21,7 +21,7 @@ const Form = (props) => {
             <form onSubmit={handleSubmit}
             autoComplete="on">
                 <div className="formIntro">
-                    Let's find that movie you're looking for!
+                    Let's find that song you're looking for in our library!
                 </div>
                 <input
                     className="inputBar"

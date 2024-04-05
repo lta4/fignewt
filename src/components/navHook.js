@@ -33,11 +33,11 @@ const NavHook = () => {
                 </li>
                 <li>
                     <NavLink
-                        to="/fav"
+                        to="/shows"
                         className={linkClassName}
                         onClick={closeMobileMenu}
                     >
-                        Fav
+                        Shows
                     </NavLink>
                 </li>
                 <li>
@@ -51,11 +51,11 @@ const NavHook = () => {
                 </li>
                 <li>
                     <NavLink
-                        to="/review"
+                        to="/video"
                         className={linkClassName}
                         onClick={closeMobileMenu}
                     >
-                        Review
+                        Video
                     </NavLink>
                 </li>
                 <li>
@@ -83,7 +83,7 @@ const NavHook = () => {
         <header className="header">
             <nav className="nav container">
                 <NavLink to="/" className="nav__logo">
-                    Navigation Bar
+                    DJ K Fig
                 </NavLink>
 
                 {isMobile && (

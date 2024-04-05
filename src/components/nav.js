@@ -21,21 +21,21 @@ const Nav = () => {
         <header className="header">
             <nav className="nav container">
                 <NavLink to="/" className="nav__logo">
-                    Navigation Bar
+                    DJ K Fig
                 </NavLink>
                 <div className={`nav__menu ${showMenu ? "show-menu" : ""}`} id="nav-menu">
                     <ul className="nav__list">
                         <li className="nav__item"><NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
                             Home
                         </NavLink></li>
-                        <li className="nav__item"><NavLink to="/fav" className="nav__link" onClick={closeMenuOnMobile}>
-                            Fav
+                        <li className="nav__item"><NavLink to="/shows" className="nav__link" onClick={closeMenuOnMobile}>
+                            Shows
                         </NavLink></li>
                         <li className="nav__item"><NavLink to="/about" className="nav__link" onClick={closeMenuOnMobile}>
                             About
                         </NavLink></li>
-                        <li className="nav__item"><NavLink to="/review" className="nav__link" onClick={closeMenuOnMobile}>
-                            Review
+                        <li className="nav__item"><NavLink to="/video" className="nav__link" onClick={closeMenuOnMobile}>
+                            Video
                         </NavLink>
                         </li>
                         <li

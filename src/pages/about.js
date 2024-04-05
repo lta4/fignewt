@@ -3,10 +3,10 @@ import React from "react";
 const About = (props) => {
     return (
         <>
-            <h1>About page</h1>
+            <h1>About DJ K Fig</h1>
                 <div>
-                    <h2>This is about Fig and Newt</h2>
-                    <p>Thi is the paragraph of Newt</p>
+                    <h2>The content of K and Fig</h2>
+                    <p>Lorem Opios</p>
                 </div>
         </>
     );

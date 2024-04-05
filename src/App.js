@@ -5,9 +5,9 @@ import { Routes, Route } from "react-router-dom";
 import Main from "./pages/main";
 import Nav from "./components/nav";
 import NavHook from "./components/navHook";
-import Fav from "./pages/fav";
+import Shows from "./pages/shows";
 import About from "./pages/about";
-import Review from "./pages/review";
+import Video from "./pages/video";
 import Footer from "./pages/footer";
 import Dashboard from './components/dashboard';
 import Login from "./components/login";
@@ -22,22 +22,23 @@ const App = () => {
     return <Login setToken={setToken} />
   }
   return (
-    <div className="App">
+     <div className="App">
       {/* <Nav /> */}
       <NavHook />
       <main className="main-content">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/fav" element={<Fav />} />
+        <Route path="/shows" element={<Shows />} />
         <Route path="/about" element={<About />} />
-        <Route path="/review" element={<Review />} />
+        <Route path="/video" element={<Video />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        {/* <Route path="/get-started" element={<getSarted />} /> */}
         <Route path="*" element={<NoMatch />} />
       </Routes>
       <Footer />
       </main>
-    </div>
+     </div>
   );
 };
 

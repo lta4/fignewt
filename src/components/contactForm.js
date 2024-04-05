@@ -12,7 +12,7 @@ if (state.succeeded) {
 return (
     <form onSubmit={handleSubmit}
     className="contactForm">
-        <h2>Feel free to reach out!</h2>
+        <h2>Newletter Sign Up!</h2>
         <input
             id="firstname"
             type="firstname"
