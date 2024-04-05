@@ -1,11 +1,11 @@
 import React from "react";
 
-const Dashboard = () => {
+const Merch = () => {
     return (
         <div>
-            <h2>Dashboard</h2>
+            <h2>Merch</h2>
         </div>
     );
 };
 
-export default Dashboard
+export default Merch

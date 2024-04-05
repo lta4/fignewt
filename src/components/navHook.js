@@ -60,10 +60,10 @@ const NavHook = () => {
                 </li>
                 <li>
                     <NavLink
-                        to="/dashboard"
+                        to="/merch"
                         className={linkClassName}onClick={closeMobileMenu}
                     >
-                        Dashboard
+                        Merch
                     </NavLink>
                 </li>
                 <li>

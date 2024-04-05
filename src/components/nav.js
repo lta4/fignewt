@@ -39,11 +39,11 @@ const Nav = () => {
                         </NavLink>
                         </li>
                         <li
-                        className="nav__item"><NavLink to="/dashboard"
+                        className="nav__item"><NavLink to="/merch"
                         className="nav__link"
                         onClick=
                         {closeMenuOnMobile}>
-                            Dashboard
+                            Merch
                         </NavLink>
                         </li>
                         <li className="nav__item">

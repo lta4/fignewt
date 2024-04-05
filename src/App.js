@@ -9,7 +9,7 @@ import Shows from "./pages/shows";
 import About from "./pages/about";
 import Video from "./pages/video";
 import Footer from "./pages/footer";
-import Dashboard from './components/dashboard';
+import Merch from './components/merch';
 import Login from "./components/login";
 import useToken from "./useToken";
 import NoMatch from "./components/noMatch";
@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/shows" element={<Shows />} />
         <Route path="/about" element={<About />} />
         <Route path="/video" element={<Video />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/merch" element={<Merch />} />
         {/* <Route path="/get-started" element={<getSarted />} /> */}
         <Route path="*" element={<NoMatch />} />
       </Routes>
