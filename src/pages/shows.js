@@ -2,7 +2,15 @@ import React from "react";
 
 const Shows = (props) => {
     return (
-        <div>Shows Page</div>
+        <>
+        <header>
+            <div className="page-divider">
+            </div>
+        </header>
+        <section>
+            <h1>hello section show</h1>
+        </section>
+        </>
     );
 };
 
