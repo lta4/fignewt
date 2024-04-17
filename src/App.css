@@ -95,14 +95,22 @@ button {
   margin: 0 5px 5px 5px;
 } */
 
+/**************Page Divider*********************/
+.page-divider {
+  border-bottom: 1px solid #fff;
+  border-bottom-width: 2px;
+  display: block;
+}
+
 /******************Profile****************/
 
-.profileTitle {
+/* .profileTitle {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 2rem 1rem;
-}
+  margin: 3rem;
+} */
 
 .profile {
   display: flex;
