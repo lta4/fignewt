@@ -28,11 +28,11 @@ const Nav = () => {
                         <li className="nav__item"><NavLink to="/" className="nav__link" onClick={closeMenuOnMobile}>
                             Home
                         </NavLink></li>
-                        <li className="nav__item"><NavLink to="/shows" className="nav__link" onClick={closeMenuOnMobile}>
-                            Shows
-                        </NavLink></li>
                         <li className="nav__item"><NavLink to="/about" className="nav__link" onClick={closeMenuOnMobile}>
                             About
+                        </NavLink></li>
+                        <li className="nav__item"><NavLink to="/shows" className="nav__link" onClick={closeMenuOnMobile}>
+                            Shows
                         </NavLink></li>
                         <li className="nav__item"><NavLink to="/video" className="nav__link" onClick={closeMenuOnMobile}>
                             Video

@@ -8,7 +8,7 @@ const Merch = () => {
             </div>
         </header>
         <section>
-            <h1>hello Merch show</h1>
+            <h1>hello Merch merch</h1>
         </section>
         </>
     );

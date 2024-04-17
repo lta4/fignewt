@@ -33,20 +33,20 @@ const NavHook = () => {
                 </li>
                 <li>
                     <NavLink
-                        to="/shows"
-                        className={linkClassName}
-                        onClick={closeMobileMenu}
-                    >
-                        Shows
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
                         to="/about"
                         className={linkClassName}
                         onClick={closeMobileMenu}
                     >
                         About
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                        to="/shows"
+                        className={linkClassName}
+                        onClick={closeMobileMenu}
+                    >
+                        Shows
                     </NavLink>
                 </li>
                 <li>

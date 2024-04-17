@@ -8,7 +8,7 @@ const Video = (props) => {
             </div>
         </header>
         <section>
-            <h1>hello video show</h1>
+            <h1>hello video video</h1>
         </section>
         </>
     );
