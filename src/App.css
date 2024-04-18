@@ -121,7 +121,7 @@ button {
 }
 
 .profile__set {
-  width: 50%;
+  width: 100%;
   background: white;
   margin: 0 1rem;
   padding: 2rem;
@@ -136,12 +136,22 @@ button {
 
 .profile__set__image {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .profile__set__image img {
   object-fit: contain;
 }
+
+/***************Info Footer*************/
+
+.info-footer {
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
 
 /****************Footer*************/
 

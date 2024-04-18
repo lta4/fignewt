@@ -22,6 +22,9 @@ const About = (props) => {
                 </div>
             </div>
         </section>
+        <div className="info-footer">
+            <p>San Diego, California</p>
+        </div>
         </>
     );
 };

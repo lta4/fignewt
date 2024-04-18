@@ -10,6 +10,9 @@ const Merch = () => {
         <section>
             <h1>hello Merch merch</h1>
         </section>
+        <div className="info-footer">
+            <p>San Diego, California</p>
+        </div>
         </>
     );
 };

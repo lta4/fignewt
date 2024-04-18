@@ -10,6 +10,9 @@ const Shows = (props) => {
         <section>
             <h1>hello section show</h1>
         </section>
+        <div className="info-footer">
+            <p>San Diego, California</p>
+        </div>
         </>
     );
 };
