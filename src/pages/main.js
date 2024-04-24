@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Form from "../components/form";
 import ContactForm from "../components/contactForm";
+import Shows from "../pages/shows";
 
 const Main = (props) => {
     return (
@@ -28,6 +29,7 @@ const Main = (props) => {
         </section>
         <div className="info-footer">
             <p>San Diego, California</p>
+            <Shows />
         </div>
         </>
     );
