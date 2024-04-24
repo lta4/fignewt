@@ -16,6 +16,7 @@ const Main = (props) => {
                 <ContactForm />
             </div>
         </section>
+        <div className="page-divider"></div>
         <section>
             <div id="dj">
                 <div className="page-image">

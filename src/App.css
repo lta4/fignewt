@@ -98,18 +98,32 @@ button {
 /*****************Main*****************/
 
 #dj {
-  /* margin-top: 100px; */
-  /* display: block; */
+  margin-top: 100px;
+  display: block;
 }
 
-page-image {
-  /* position: relative; */
-  /* display: block; */
+.page-image {
+  position: relative;
+  display: block;
 }
 
-page-image image-wrapper {
-  /* background-color: #eaf0f0; */
-  /* display: block; */
+.page-image .image-wrapper {
+  background-color: white;
+  display: block;
+}
+
+.page-image .image-wrapper img[data-src] {
+  width: 100%;
+  display: block;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
 }
 
 /**************Page Divider*********************/
