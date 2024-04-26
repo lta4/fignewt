@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../Login.css";
 import PropTypes from "prop-types";
 // import { SocialIcon } from "react-social-icons";
-import Footer from "../pages/footer";
+import Footer from "./footer";
 
 async function loginUser(credentials) {
     return fetch("http://localhost:8080/login", {

@@ -8,7 +8,7 @@ import NavHook from "./components/navHook";
 import Shows from "./pages/shows";
 import About from "./pages/about";
 import Video from "./pages/video";
-import Footer from "./pages/footer";
+import Footer from "./components/footer";
 import Merch from './components/merch';
 import Login from "./components/login";
 import useToken from "./useToken";
