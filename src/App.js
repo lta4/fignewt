@@ -9,7 +9,7 @@ import Shows from "./pages/shows";
 import About from "./pages/about";
 import Video from "./pages/video";
 import Footer from "./components/footer";
-import Merch from './components/merch';
+import Merch from './pages/merch';
 import Login from "./components/login";
 import useToken from "./useToken";
 import NoMatch from "./components/noMatch";
@@ -26,17 +26,18 @@ const App = () => {
       {/* <Nav /> */}
       <NavHook />
       <main className="main-content">
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/shows" element={<Shows />} />
-        <Route path="/video" element={<Video />} />
-        <Route path="/merch" element={<Merch />} />
-        {/* <Route path="/get-started" element={<getSarted />} /> */}
-        <Route path="*" element={<NoMatch />} />
-      </Routes>
-      <Footer />
+        <div className="page-divider"></div>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/shows" element={<Shows />} />
+          <Route path="/video" element={<Video />} />
+          <Route path="/merch" element={<Merch />} />
+          {/* <Route path="/get-started" element={<getSarted />} /> */}
+          <Route path="*" element={<NoMatch />} />
+        </Routes>
+        <Footer />
       </main>
      </div>
   );

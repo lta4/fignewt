@@ -4,7 +4,6 @@ const About = (props) => {
     return (
         <>
         <header>
-            <div className="page-divider"></div>
             {/* <div className="profileTitle" id="b">
                 <h1>About DJ K Fig</h1>
             </div> */}
@@ -18,6 +17,8 @@ const About = (props) => {
                             <p>I'm a Full Stack Developer residing in San Diego, CA.
                             I have a serious passion for developing, animations, and creating intuitive/dynamic user experiences.</p>
                             <p>Let's create something special!</p>
+                            <div className="page-divider"></div>
+                            <p>Founded in 2021</p>
                         </div>
                 </div>
             </div>

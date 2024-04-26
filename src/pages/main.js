@@ -7,7 +7,7 @@ const Main = (props) => {
     return (
         <>
         <header>
-            <div className="page-divider"></div>
+            {/* <div className="page-divider"></div> */}
         </header>
         <section>
             <div style={{ backgroundImage: `url("https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg")` }}>
