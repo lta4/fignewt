@@ -99,17 +99,14 @@ button {
 
 #dj {
   margin-top: 100px;
-  display: block;
 }
 
 .page-image {
   position: relative;
-  display: block;
 }
 
 .page-image .image-wrapper {
   background-color: white;
-  display: block;
 }
 
 .page-image .image-wrapper img[data-src] {
@@ -121,6 +118,7 @@ img {
   border: 0;
   vertical-align: middle;
 }
+
 /**************Page Divider*********************/
 
 .page-divider {
@@ -151,6 +149,7 @@ img {
   width: 100%;
   background: white;
   margin: 0 1rem;
+  margin-top: 100px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
