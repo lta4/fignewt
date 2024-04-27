@@ -98,19 +98,19 @@ button {
 
 /*****************Main*****************/
 
-#dj {
+#dj_j {
   margin-top: 100px;
 }
 
-.page-image {
+.page_image {
   position: relative;
 }
 
-.page-image .image-wrapper {
+.page_image .image_wrapper {
   background-color: white;
 }
 
-.page-image .image-wrapper img[data-src] {
+.page_image .image_wrapper img[data-src] {
   width: 100%;
   display: block;
 }
@@ -118,6 +118,23 @@ button {
 img {
   border: 0;
   vertical-align: middle;
+}
+
+/********************Header Info*************/
+
+.header_info {
+  clear: none;
+}
+
+.header_block {
+  position: relative;
+  height: auto;
+  padding: 17px;
+}
+
+.header_content {
+  text-align: center;
+  white-space: pre-wrap;
 }
 
 /**************Page Divider*********************/

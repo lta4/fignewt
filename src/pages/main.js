@@ -6,22 +6,24 @@ import Shows from "../pages/shows";
 const Main = (props) => {
     return (
         <>
-        <header>
-            {/* <div className="page-divider"></div> */}
-            <div style={{ backgroundImage: `url("https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg")` }}>
-                <h1>DJ K Fig</h1>
-                <p>DJ K Fig in the house. We are all about the hard bass and fury electronics.</p>
-            </div>
-        </header>
-        <div className="page-divider"></div>
-        <section>
-            <div id="dj">
-                <div className="page-image">
-                    <div className="image-wrapper">
-                        <img data-src="https://images.squarespace-cdn.com/content/v1/594b217b5016e15137faa842/1610998725789-XQP5OU2KJKWAUSB1WEI8/holston_house-grand_opening-HIGH_RES-105.jpg" data-image="https://images.squarespace-cdn.com/content/v1/594b217b5016e15137faa842/1610998725789-XQP5OU2KJKWAUSB1WEI8/holston_house-grand_opening-HIGH_RES-105.jpg" data-image-dimensions="2500x1667" data-image-focal-point="0.5,0.5" alt="holston_house-grand_opening-HIGH_RES-105.jpg" class data-image-resolution="2500w" src="https://images.squarespace-cdn.com/content/v1/594b217b5016e15137faa842/1610998725789-XQP5OU2KJKWAUSB1WEI8/holston_house-grand_opening-HIGH_RES-105.jpg?format=2500w"></img>
+            <div id="dj_j">
+                <div className="page_image">
+                    <div className="image_wrapper"> <img data-src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" data-img="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg" data-image-dimensions="2500x1667" alt="" data-image-focal-point="0.5,0.5" data-image-resolution="2500w" src="https://res.cloudinary.com/dfltkqotn/image/upload/v1636925630/Profile-Image.jpg"></img>
                     </div>
                 </div>
             </div>
+        <div className="page-divider"></div>
+        <header>
+            <div className="header_info">
+                <div className="header_block">
+                    <div className="header_content">
+                        <h1>DJ J Fig</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div></div>
         </section>
         <div className="info-footer">
             <p>San Diego, California</p>
@@ -34,3 +36,5 @@ const Main = (props) => {
 };
 
 export default Main
+
+// style={{ backgroundImage: `url(
