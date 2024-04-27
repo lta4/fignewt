@@ -144,6 +144,10 @@ img {
   margin-bottom: 100px;
 }
 
+.header_des {
+  clear: none;
+}
+
 /**************Page Divider*********************/
 
 .page-divider {

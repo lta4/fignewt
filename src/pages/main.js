@@ -20,6 +20,13 @@ const Main = (props) => {
                         <h1>DJ J Fig</h1>
                     </div>
                     <div className="page-divider"></div>
+                <div className="header_des">
+                    <div className="header_block">
+                    <div className="header_content">
+                        <p>hello</p>
+                    </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </header>
