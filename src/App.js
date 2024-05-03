@@ -25,6 +25,7 @@ const App = () => {
      <div className="App">
       {/* <Nav /> */}
       <NavHook />
+      <div className="background" style={{ backgroundImage: `url("https://steamuserimages-a.akamaihd.net/ugc/2003575562495150723/C60BF4203B087936E6F4A23B2CBAF3771C0D9579/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false")`}}>
       <main className="main-content">
         <div className="page-divider"></div>
         <Routes>
@@ -39,7 +40,8 @@ const App = () => {
         </Routes>
         <Footer />
       </main>
-     </div>
+      </div>
+    </div>
   );
 };
 
