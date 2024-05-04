@@ -130,12 +130,14 @@ img {
 
 .header_info {
   clear: none;
+  /* background-color: white; */
 }
 
 .header_block {
   position: relative;
   margin-top: 100px;
   padding: 17px;
+  /* background-color: white; */
 }
 
 .header_content {
@@ -148,6 +150,7 @@ img {
   font-weight: 300;
   font-style: normal;
   margin-bottom: 100px;
+  background-color: white;
 }
 
 .header_des {
