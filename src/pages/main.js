@@ -23,7 +23,7 @@ const Main = (props) => {
                 <div className="header_des">
                     <div className="header_block">
                     <div className="header_content">
-                        <p>sick shots of dj j fig</p>
+                        <p>Providing Unique and Sick Musical experiences for parties and events</p>
                     </div>
                     </div>
                 </div>
