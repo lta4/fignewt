@@ -29,7 +29,7 @@ const App = () => {
       <main className="main-content">
         <div className="page-divider"></div>
         <div className="main_title" id="b">
-                <h1>About DJ K Fig</h1>
+                <h1>DJ K Fig</h1>
             </div>
         <div className="page-divider"></div>
         <Routes>
