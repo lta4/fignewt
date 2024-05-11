@@ -22,6 +22,15 @@
   color: white;
 } */
 
+.main_title {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 1rem;
+  margin: 3rem;
+}
+
 .background {
   position: relative;
   width: 100%;
@@ -167,14 +176,6 @@ img {
 }
 
 /******************Profile****************/
-
-/* .profileTitle {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 2rem 1rem;
-  margin: 3rem;
-} */
 
 .profile {
   display: flex;
