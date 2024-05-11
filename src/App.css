@@ -240,3 +240,11 @@ img {
   text-decoration: none;
   color: #000C40;
 }
+
+/********************MEDIA*******************/
+
+@media screen and (max-width: 320px) {
+  .main_title {
+    padding: 1px
+  }
+}
