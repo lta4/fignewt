@@ -3,11 +3,12 @@ import React from "react";
 const About = (props) => {
     return (
         <>
-        <header>
-            {/* <div className="profileTitle" id="b">
+        {/* <header>
+            <div className="profileTitle" id="b">
                 <h1>About DJ K Fig</h1>
-            </div> */}
-        </header>
+            </div>
+            <div className="page-divider"></div>
+        </header> */}
         <section className="profile">
             <div className="profile__set">
                 <div className="profile__set__image">
