@@ -9,7 +9,7 @@ import Shows from "./pages/shows";
 import About from "./pages/about";
 import Video from "./pages/video";
 import Footer from "./components/footer";
-import Merch from './pages/merch';
+import Merch from "./pages/merch";
 import Login from "./components/login";
 import useToken from "./useToken";
 import NoMatch from "./components/noMatch";
@@ -29,8 +29,8 @@ const App = () => {
       <main className="main-content">
         <div className="page-divider"></div>
         <div className="main_title" id="b">
-                <h1>DJ K Fig</h1>
-            </div>
+          <h1>DJ K Fig</h1>
+        </div>
         <div className="page-divider"></div>
         <Routes>
           <Route path="/" element={<Main />} />
